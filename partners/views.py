@@ -55,6 +55,9 @@ class LoginAPI(KnoxLoginView):
 #     queryset = Registration.objects.all()
 #     serializer_class = RegisterSerializer
 
+def hello(request):
+    return HttpResponse(status=status.HTTP_200_OK)
+
 class Register(generics.GenericAPIView):
     authentication_classes = (TokenAuthentication,)
     permission_classes = (IsAuthenticated,)
