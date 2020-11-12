@@ -29,10 +29,6 @@ cfgv==3.1.0
 chardet==3.0.4
 cloudpickle==1.2.2
 comtypes==1.1.7
-conda==4.9.0
-conda-build==3.18.9
-conda-package-handling==1.6.0
-conda-verify==3.4.2
 constantly==15.1.0
 contextlib2==0.6.0
 cryptography==3.2
@@ -54,7 +50,6 @@ django-cors-headers==3.5.0
 django-crispy-forms==1.9.2
 django-filter==2.3.0
 django-heroku==0.3.1
-django-mathfilters==1.0.0
 django-model-utils==4.0.0
 django-mysql==3.8.1
 django-pdb==0.6.2
