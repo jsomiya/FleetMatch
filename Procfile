@@ -1,1 +1,1 @@
-"web: gunicorn Fleetmatch.wsgi --log-file -" 
+"web: gunicorn Fleetmatch.wsgi" 
